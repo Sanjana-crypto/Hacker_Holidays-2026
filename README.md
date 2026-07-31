@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="profile.png" alt="Hacker Holidays 2026 Banner" width="100%">
+</p>
+
 # 🎯 Hacker Holidays 2026
 
 > My cybersecurity learning journey through the **TryHackMe Hacker Holidays 2026** event.
