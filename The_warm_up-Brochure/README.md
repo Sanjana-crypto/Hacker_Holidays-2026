@@ -29,17 +29,18 @@ The Brochure is the introductory warm-up challenge of TryHackMe Hacker Holidays 
 - Understood how OSINT investigations combine multiple sources.
 
 ## Screenshots
+
 ### 1. Challenge Overview
-![Task Overview](screenshots/Task1.png)
+![Task Overview](Task1.png)
 
 ### 2. Challenge Objectives
-![Challenge Objectives](screenshots/Task2.png)
+![Challenge Objectives](Task2.png)
 
 ### 3. Hidden Instagram Profile
-![Instagram Investigation](screenshots/Insta.png)
+![Instagram Investigation](Insta.png)
 
 ### 4. Base64 Decoding with CyberChef
-![CyberChef Decode](screenshots/Cyber_Chef.png)
+![CyberChef Decode](Cyber_Chef.png)
 
 ## Notes
 
