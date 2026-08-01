@@ -6,6 +6,19 @@
 
 > My cybersecurity learning journey through the **TryHackMe Hacker Holidays 2026** event.
 
+
+
+![Kali Linux](https://img.shields.io/badge/Kali-Linux-557C94?style=flat-square&logo=kalilinux)
+![Nmap](https://img.shields.io/badge/Tool-Nmap-00457C?style=flat-square)
+![Burp Suite](https://img.shields.io/badge/Tool-Burp%20Suite-orange?style=flat-square)
+![Gobuster](https://img.shields.io/badge/Tool-Gobuster-blue?style=flat-square)
+![Netcat](https://img.shields.io/badge/Tool-Netcat-success?style=flat-square)
+![Python](https://img.shields.io/badge/Python-3.x-yellow?style=flat-square&logo=python)
+![Linux](https://img.shields.io/badge/Linux-Terminal-black?style=flat-square&logo=linux)
+![Flask](https://img.shields.io/badge/Flask-Python-black?style=flat-square&logo=flask)
+
+---
+
 ## 📌 About
 
 This repository documents my progress through the Hacker Holidays event while focusing on:
@@ -40,6 +53,17 @@ This repository intentionally avoids publishing active challenge solutions or fl
 - Network Forensics
 - PCAP Analysis
 - Cryptography
+- Network Scanning
+- Service Enumeration
+- YAML Deserialization
+- Remote Code Execution (RCE)
+- Linux Enumeration
+- Shell Stabilization
+- Credential Discovery
+- Credential Reuse
+- Privilege Escalation
+- Capture the Flag (CTF)
+
 
 ---
 
@@ -54,6 +78,7 @@ This repository intentionally avoids publishing active challenge solutions or fl
 - wget
 - Git
 - Firefox
+- Linux Terminal
 
 ---
 
@@ -66,6 +91,7 @@ This repository intentionally avoids publishing active challenge solutions or fl
 | Day 2 | Room 404 | Web Security | ✅ |
 | Day 3 | Complimentary | Cloud Security | ✅ |
 | Day 4 | Packed Light |Forensics | ✅ |
+| Day 5 | Beach Bar | Boot2Root | **✅** |
 ---
 
 ## ⚠ Disclaimer
