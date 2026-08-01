@@ -9,6 +9,19 @@
 | **Points** | 60 |
 | **Tags** | Web, Boot2root |
 
+---
+
+![CTF](https://img.shields.io/badge/CTF-TryHackMe-red?style=flat-square&logo=hackthebox)
+![Category](https://img.shields.io/badge/Category-Boot2Root-blue?style=flat-square)
+![Difficulty](https://img.shields.io/badge/Difficulty-Easy-brightgreen?style=flat-square)
+![Points](https://img.shields.io/badge/Points-60-yellow?style=flat-square)
+![Vuln](https://img.shields.io/badge/Vuln-YAML%20Deserialization-orange?style=flat-square)
+![Vuln](https://img.shields.io/badge/Vuln-Credential%20Reuse-orange?style=flat-square)
+![Platform](https://img.shields.io/badge/Platform-Linux-lightgrey?style=flat-square&logo=linux)
+![Stack](https://img.shields.io/badge/Stack-Flask%2FPython-000000?style=flat-square&logo=flask)
+
+---
+
 ## 📝 Room Briefing
 
 > Welcome back to the Byte Lotus — this time the sand is warm, the deck lights are coming up, and the beach bar's jukebox takes requests from anyone with a phone. You spend the evening as a guest at the rail who simply notices things: a DJ who never logs out, a song queue that accepts a little more than song titles, a service down the boardwalk quietly announcing "something".
