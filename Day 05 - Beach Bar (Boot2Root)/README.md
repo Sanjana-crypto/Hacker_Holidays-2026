@@ -1,6 +1,6 @@
 # 🏖️ TryHackMe — Beach Bar (Boot2Root Writeup)
 
-![Task](images/task.png)
+![Task](Task.png)
 
 | | |
 |---|---|
@@ -143,7 +143,7 @@ root@tryhackme-2404:/opt/beach-bar/webapp#
 
 ## 🏁 Result
 
-![Result](images/result.png)
+![Result](Result.png)
 
 **Room completed** ✅ — 90 points, both flags captured.
 
@@ -158,5 +158,4 @@ root@tryhackme-2404:/opt/beach-bar/webapp#
 
 ---
 
-*Writeup for the TryHackMe room "Beach Bar" (Byte Lotus series). Flags redacted/replaced with placeholders per THM's writeup guidelines — do not post real flag values publicly.*
-
+*Writeup for the TryHackMe room "Beach Bar" (Byte Lotus series). Flags redacted/replaced with placeholders per THM's writeup guidelines*
