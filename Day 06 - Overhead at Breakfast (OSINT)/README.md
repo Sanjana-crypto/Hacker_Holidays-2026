@@ -12,13 +12,11 @@
 
 **Objective:** Analyze a leaked conversation, extract identifying details, locate a hidden account, and submit the flag.
 
-![Task Brief](images/task.png)
+![Task Brief](OSINT_Task.png)
 
 ---
 
 ## Step 1 — Analyze the Conversation
-
-![Conversation Screenshot](images/conversation.png)
 
 The provided screenshot shows a chat between two users, **Ponzi** and **Lambo!**, discussing the Byte Lotus resort. Key lines from Lambo:
 
@@ -103,7 +101,7 @@ Redacted — follow the steps above in your own room to retrieve it.
 
 ## Completion
 
-![Room Completed](images/result.png)
+![Room Completed](OSINT_Result.png)
 
 Room completed — **90 points** earned.
 
@@ -113,4 +111,3 @@ Room completed — **90 points** earned.
 - Gravatar profiles persist even after someone "wipes" their social media, because they're tied to an email hash, not a platform account.
 - Any email can be turned into a Gravatar lookup: `md5(lowercase(email))` → `gravatar.com/<hash>.json`.
 - Always check profile fields (bio/about) for encoded data (base64 is extremely common in CTFs).
-
