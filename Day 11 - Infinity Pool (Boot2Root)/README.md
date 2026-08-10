@@ -2,7 +2,27 @@
 
 > **TryHackMe | Boot2Root | Medium**
 
-![Completion](Result_Completion.png)
+---
+
+## 🏁 Completion
+
+| Information | Details |
+|---|---|
+| 🏨 Room | Infinity Pool |
+| 🌐 Category | Boot2Root |
+| 📊 Difficulty | Medium |
+| 🎯 Objectives | User Flag + Root Flag |
+| ✅ Status | Completed |
+
+---
+
+### 🏊 Infinity Pool
+
+![Infinity Pool](Infinity_Pool.png)
+
+### 🎬 Storyline / Reckoning
+
+![Infinity Pool Story](Infinity.png)
 
 ---
 
@@ -309,27 +329,7 @@ can reveal possible paths to root.
 
 ---
 
-## 🏁 Completion
-
-| Information | Details |
-|---|---|
-| 🏨 Room | Infinity Pool |
-| 🌐 Category | Boot2Root |
-| 📊 Difficulty | Medium |
-| 🎯 Objectives | User Flag + Root Flag |
-| ✅ Status | Completed |
-
----
-
 ## 🖼️ Room Evidence
-
-### 🏊 Infinity Pool
-
-![Infinity Pool](Infinity_Pool.png)
-
-### 🎬 Storyline / Reckoning
-
-![Infinity Pool Story](Infinity.png)
 
 ### 🏆 Completion
 
