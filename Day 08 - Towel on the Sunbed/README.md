@@ -5,6 +5,14 @@
 **Points:** 90  
 **Tags:** `Web Exploitation` `Business Logic` `Burp Suite` `API Abuse`
 
+---
+
+## Challenge Card
+
+![Towel on the Sunbed](./Sunbed_Task1.png)
+
+---
+
 ## Challenge Description
 
 > Ponzi found the resort's wellness portal running a little side project called *Ponzi* — a crypto rewards app, poolside edition. He set his towel down, claimed his daily reward, and went to reapply sunscreen. He came back to find the sunbed had been "claimed" three times over while he wasn't looking.
@@ -79,30 +87,29 @@ The claim-eligibility check and the balance/timestamp update are not wrapped in 
   Only one concurrent request can succeed since the `WHERE` clause re-validates eligibility at write time.
 - Alternatively, enforce a per-user lock/mutex or a unique constraint (e.g., one claim row per user per day) to serialize claim attempts.
 
+
 ---
+
+
 ## Proof of Concept / Results
 
-**Burp Suite Intruder Attempt (Sequential-ish, didn't work):**
+**Burp Suite Intruder Attempt (Didn't work):**
 Even with Burp Intruder sending rapid requests, every single response came back `429 Reward already claimed` — Intruder's threads weren't tight enough in timing to land inside the race window.
 
-![Intruder Attack](./screenshots/intruder_attack.png)
+![Intruder Attack](./Intruder_attack.png)
 
 **Working Exploit — True Parallel curl Requests:**
 Firing 20 truly simultaneous background curl processes (`&` + `wait`) closed the timing gap Burp couldn't, and multiple claims landed successfully before the server's check caught up — pushing the balance past the 150 PONZI whale threshold.
 
 **Room Completed:**
-![Room Completion](./screenshots/completion.png)
+![Room Completion](./Completion.png)
 
 - Points earned: **135**
 - Streak: **117**
 
 ---
 
-## Challenge Card
 
-![Towel on the Sunbed](./screenshots/sunbed_task.png)
-
----
 
 ## Lessons Learned
 
