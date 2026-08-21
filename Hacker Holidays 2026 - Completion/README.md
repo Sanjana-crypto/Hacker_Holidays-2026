@@ -1,7 +1,7 @@
 # 🏝️ TryHackMe — Hacker Holidays 2026
 
 <p align="center">
-  <img src="Hacker_Holidays_Cert_of_Comp.png" alt="Hacker Holidays 2026 Certificate of Completion" width="700">
+  <img src="Hacker_Holidays_Cert of Comp.png" alt="Hacker Holidays 2026 Certificate of Completion" width="700">
 </p>
 
 <p align="center">
